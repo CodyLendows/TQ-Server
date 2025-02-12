@@ -15,7 +15,6 @@ namespace TQServer
             { "logs", "Usage: logs\nDisplays server logs." },
             { "exit", "Usage: exit\nLogs out the current user." },
             { "mv", "Usage: mv <file1> <file2>\nMoves or renames a file as described." },
-            { "mkdir", "Usage: mv <path>\nCreates a directory." },
             { "cp", "Usage: cp <file1> <file2>\nCopies a file as described." },
             { "rm", "Usage: rm <path>\nDeletes a file or directory. -r flag must be specified to delete directories.\n\nFlags:\n -r: Allow recursive deletion\n -f: Automatically approve prompts." },
             { "cat", "Usage: cat <path> [additional paths]\nReads a file from disk. May be invoked with additional paths." },
