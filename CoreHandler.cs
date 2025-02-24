@@ -121,6 +121,8 @@ namespace TQServer
 
         private static string RedirectToPipe(string pipeTarget, string output, Client client)
         {
+            if (!CheckClientScope(client, "Write")) return "";
+
             if (pipeTarget.StartsWith('>'))
             {
                 pipeTarget = pipeTarget.Substring(1).Trim();
